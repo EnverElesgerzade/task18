@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    position: sticky;
+   top: 0;
+    cursor: pointer;
+    color: white;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    .imgBox{
+      img{
+        padding-left: 90px;
+      }
+    }
+  }
+  .header .nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .header .one,.two {
+    display: none;
+    position: relative;
+  }
+  .header .s,.t {
+    cursor: pointer;
+  }
+  .header .s:hover .one,.t:hover .two {
+    display: block;
+    position: absolute;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    width: 170px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    
+  }
+  
+  .twopage{
+    background-image: url(https://image.milimaj.com/i/milliyet/75/869x477/5e9ef3585542870d5ccb1441.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 86vh;
+}
+.textBox{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    p{
+      padding-top: 9px;
+    }
+    .dream{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0 8px;
+        width: 134px;
+        border-radius: 4px;
+        height: 50px;
+        border: 1px solid none;
+        background-color: rgb(208, 255, 0);
+        color: black;
+    }
+    h3{
+        font-size: 40px;
+        bottom: 240px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 13px;
+    }
+    button{
+      cursor: pointer;
+      width: 135px;
+      height: 43px;
+      color: #FAB700;
+      background-color: #161616;
+      font-family: sans-serif;
+      border: 0;
+      border-radius: 7px;
+    }
+}
+.text{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   gap: 13px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abc{
+  display: flex;
+  padding-right: 31px;
+}
+.imgBox{
+  align-items: center;
+  display: flex;
+  padding: 5px 0px;
+  justify-content: space-between;
+  img{
+    display: flex;
+    padding: 20px 150px
+    margin: 0px 16px 0px 0px;
+  }
+}
+.btn{
+  padding-top: 35px;
+}
+button:hover{
+  background-color: #FAB700;
+  color: #161616;
+  transition: .4s;
+}
+li:hover{
+  color: #FAB700;
+}
+.threepage{
+
+  .textBox1{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: sans-serif;
+    h2{
+      font-size: 26px;
+      
+      
+    }
+    p{
+      color: gray;
+    }
+  }
+  .card1{
+    width: 30%;
+    height: 10vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .textBox2{
+    padding-left: 100px;
+    padding-top: 20px;
+   h4{
+    padding: 13px 0;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   p{
+    color: gray;
+    font-size: 14px;
+   }
+  }
+ 
+}
+.cardBoxes{
+  display: flex;
+}
+.fourpage{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  .head{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    h2{
+      font-size: 26px;
+      font-family: sans-serif;
+      padding-bottom: 10px;
+      padding-top: 20px;
+    }
+    p{
+      color: gray;
+      font-size: 14px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  }
+  
+.imageBoxes{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  .imgBox1{
+    display: flex;
+
+    img{
+  
+      width:405px;
+      height: 250px;
+    }
+  }
+
+.imgBox2{
+  display: flex;
+
+  img{
+
+    width:405px;
+    height: 250px;
+  }
+}
+.imgBox3{
+  display: flex;
+
+  img{
+
+    width:405px;
+    height: 250px;
+  }
+}
+.imgBox4{
+  display: flex;
+
+  img{
+
+    width:405px;
+    height: 250px;
+  }
+}
+.imgBox5{
+  display: flex;
+
+  img{
+
+    width:405px;
+    height: 250px;
+  }
+}
+.imgBox6{
+  display: flex;
+
+  img{
+
+    width:405px;
+    height: 250px;
+  }
+}
+
+  .hover1{
+    align-items: center;
+    text-align: center;
+
+    width: 410px;
+    flex-direction: column;
+    height: 250px;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    h4{
+      padding-top: 70px;
+    }
+  }
+    .hover2{
+      align-items: center;
+    text-align: center;
+
+    width: 410px;
+    flex-direction: column;
+    height: 250px;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    h4{
+      padding-top: 70px;
+    }
+  }
+  .hover3{
+    align-items: center;
+    text-align: center;
+
+    width: 410px;
+    flex-direction: column;
+    height: 250px;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    h4{
+      padding-top: 70px;
+  }
+}
+
+.hover4{
+  align-items: center;
+  text-align: center;
+
+  width: 410px;
+  flex-direction: column;
+  height: 250px;
+  display: none;
+  opacity: 0;
+  position: absolute;
+  h4{
+    padding-top: 70px;}
+
+  }
+  &:hover{
+    .hover1{
+     transition: all 300ms ease;
+      display: block;
+      opacity: .9;
+      background-color: #FAB700D9;
+      color: black;
+    }
+     .hover2{
+      display: block;
+      transition: all 300ms ease;
+      opacity: .9;
+      background-color: #FAB700D9;
+      color: black;
+     }
+     .hover3{
+      display: block;
+      transition: all 300ms ease;
+      opacity: .9;
+      background-color: #FAB700D9;
+      color: black;
+     }
+     .hover4{
+      display: block;
+      opacity: .9;
+      background-color: #FAB700D9;
+      transition: all 300ms ease;
+      color: black;
+     }
+     .hover5{
+      display: block;
+      opacity: .9;
+      transition: all 300ms ease;
+      background-color: #FAB700D9;
+      color: black;
+     }
+     .hover6{
+      display: block;
+      opacity: .9;
+      transition: all 300ms ease;
+      background-color: #FAB700D9;
+      color: black;
+     }
+    }
+  }
+.hover5{
+  align-items: center;
+    text-align: center;
+   transition: all 300ms ease;
+    width: 410px;
+    flex-direction: column;
+    height: 250px;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    h4{
+      padding-top: 70px;
+}
+}
+.hover6{
+  align-items: center;
+    text-align: center;
+
+    width: 410px;
+    flex-direction: column;
+    height: 250px;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    h4{
+      padding-top: 70px;
+}
+}
+}
+.fivepage{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  
+  }
+  .imageBoxes2{
+    padding-left: 65px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+
+   .img1{ 
+    position: relative;
+    .hoverr{
+      align-items: center;
+      text-align: center;
+  
+      width: 410px;
+      flex-direction: column;
+      height: 250px;
+      display: none;
+      opacity: 0;
+      position: absolute;
+      
+      .hoverr:hover{
+        display: block;
+        background-color:#FAB700;
+        align-items: center;
+        display: flex;
+        opacity: .9;
+      }
+    }
+   }
+
+
+    h4{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 16px;
+      padding-top: 16px;
+    }
+    p{
+      font-size: 15px;
+      padding-top: 4px;
+      color: rgb(113, 112, 112);
+    }
+  }
+  .head{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 280px;
+    padding-bottom: 80px;
+    h2{
+      font-size: 26px;
+      font-family: sans-serif;
+      padding-bottom: 10px;
+      padding-top: 20px;
+    }
+    p{
+      color: gray;
+      font-size: 14px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  }
+  
